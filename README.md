@@ -37,6 +37,8 @@ touch gruntfile.js
 	http://rubyinstaller.org/downloads/
 	记得勾选add to path
 	ruby -v
+	
+	gem install sass	
 
 	http://www.ruanyifeng.com/blog/2012/06/sass.html
 
