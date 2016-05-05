@@ -1,14 +1,23 @@
-$bgColor : #1875e7;
+$bgColor : red;
 $headerColor: #999;
+$color : #888; 
 
 body{
 	background-color: $bgColor;
-	
 }
 
 
 header {
 	color:#999;
-	font-size:100px;
+	font-size:200px;
+}
 
+section {
+	color: $color;
+	font-size:100px;
+}
+
+footer {
+	color: $color;
+	font-size:100px;
 }

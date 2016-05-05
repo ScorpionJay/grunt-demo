@@ -2,14 +2,13 @@ module.exports = function(grunt) {
 
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-contrib-connect');
-
   grunt.loadNpmTasks('grunt-contrib-sass');
 
   grunt.initConfig({
 
     connect: {
       options:{
-        port:9000,
+        port:4000,
         hostname:'localhost',
         livereload:35729
       },
@@ -38,7 +37,7 @@ module.exports = function(grunt) {
 
     // scss
     sass: { 
-        dist:{                             // Task 
+        dist:{                             
              files: [{
                 expand: true,
                 cwd: 'src/sass',
