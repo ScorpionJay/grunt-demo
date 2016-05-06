@@ -29,7 +29,7 @@ module.exports = function(grunt) {
       },
       scripts: {
          files: [
-                    'src/sass/**/*.scss'
+                  'src/sass/**/*.scss'
                 ],
                 tasks: ['sass']
             }
@@ -41,7 +41,7 @@ module.exports = function(grunt) {
              files: [{
                 expand: true,
                 cwd: 'src/sass',
-                src: ['*.scss'],
+                src: ['main.scss'],
                 dest: 'src/css',
                 ext: '.css'
               }]

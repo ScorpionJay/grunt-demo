@@ -22,25 +22,22 @@ grunt v1.0.1
 touch gruntfile.js
 ~~~
 
-    插件
-    grunt-contrib-watch
-    grunt-contrib-connect
+插件
+grunt-contrib-watch
+grunt-contrib-connect
 
+[grunt-contrib-sass](https://www.npmjs.com/package/grunt-contrib-sass)
+npm install  --save-dev
 
+需要安装ruby sass
+[安装ruby](http://rubyinstaller.org/downloads/)
+记得勾选add to path
+ruby -v // 查看安装版本
+gem install sass // 安装sass	
+sass -v // 查看版本
 
-    sass
-    npm install grunt-contrib-sass --save-dev
-    https://www.npmjs.com/package/grunt-contrib-sass
-    需要安装ruby sass
-	This task requires you to have Ruby and Sass installed. 
-
-	http://rubyinstaller.org/downloads/
-	记得勾选add to path
-	ruby -v
-	
-	gem install sass	
-
-	http://www.ruanyifeng.com/blog/2012/06/sass.html
+## REF:
+- http://www.ruanyifeng.com/blog/2012/06/sass.html
 
 
 

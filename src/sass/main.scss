@@ -1,4 +1,6 @@
-$bgColor : red;
+@import "home.scss";
+
+$bgColor : #777;
 $headerColor: #999;
 $color : #888; 
 
@@ -15,6 +17,10 @@ header {
 section {
 	color: $color;
 	font-size:100px;
+
+	div {
+		font-size:150px;
+	}
 }
 
 footer {
